@@ -55,9 +55,9 @@ The goal of this project is to explore and demonstrate how user-mode application
 
 
 
-&#x20; \* SID (Security Identifier)
+ \* SID (Security Identifier)
 
-&#x20; \* Integrity Level (Low / Medium / High / System)
+ \* Integrity Level (Low / Medium / High / System)
 
 
 
@@ -105,35 +105,35 @@ The project follows a layered architecture:
 
 L4 - Application / UI Layer
 
-&#x20;   - User interaction
+   - User interaction
 
-&#x20;   - Scenario orchestration
+   - Scenario orchestration
 
 
 
 L3 - Workflow Layer
 
-&#x20;   - High-level logic (memory scanning pipeline)
+   - High-level logic (memory scanning pipeline)
 
 
 
 L2 - Operation Layer
 
-&#x20;   - Process, memory, and security operations
+   - Process, memory, and security operations
 
 
 
 L1 - Core Layer
 
-&#x20;   - Thin wrappers over WinAPI
+   - Thin wrappers over WinAPI
 
-&#x20;   - Utilities (RAII handle, memory read, etc.)
+   - Utilities (RAII handle, memory read, etc.)
 
 
 
 Domain Layer
 
-&#x20;   - Data structures (processinfo, memory\_region, scan\_hit, token\_info)
+   - Data structures (processinfo, memory\_region, scan\_hit, token\_info)
 
 ```
 
@@ -223,19 +223,19 @@ Planned improvements:
 
 
 
-&#x20; \* Virtual Memory (VAS)
+ \* Virtual Memory (VAS)
 
-&#x20; \* Process Environment
+ \* Process Environment
 
-&#x20; \* Access Tokens
+ \* Access Tokens
 
 \* Tools used during development:
 
 
 
-&#x20; \* x64dbg
+ \* x64dbg
 
-&#x20; \* Visual Studio
+ \* Visual Studio
 
 
 
@@ -289,13 +289,9 @@ Do not use it on systems or processes without permission.
 
 \---
 
-
-
 \## 👤 Author
 
-
-
-Vlad Dvorykov 
+     lerawhite
 
 
 
