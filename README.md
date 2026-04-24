@@ -1,4 +1,4 @@
-\# Windows Process Inspector \& Memory Scanner
+\# Windows Process Inspector & Memory Scanner
 
 
 
@@ -288,6 +288,18 @@ Do not use it on systems or processes without permission.
 
 
 \---
+
+
+
+
+
+
+
+## Acknowledgements
+
+This is my first low-level security project.
+
+I dedicate this to you, adel <3
 
 \## 👤 Author
 
