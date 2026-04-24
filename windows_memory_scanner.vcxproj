@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>18.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{ad95f31e-62f4-4a33-87f2-a1231b9498bd}</ProjectGuid>
+    <RootNamespace>windowsmemoryscanner</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>$(ProjectDir)src\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>$(ProjectDir)src\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>$(ProjectDir)src\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>$(ProjectDir)src\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\app(l4)\handlers\entry_screen.cpp" />
+    <ClCompile Include="src\app(l4)\handlers\filter_process_by_name.cpp" />
+    <ClCompile Include="src\app(l4)\handlers\injection_in_process.cpp" />
+    <ClCompile Include="src\app(l4)\handlers\load_processes.cpp" />
+    <ClCompile Include="src\app(l4)\handlers\memory_scanner.cpp" />
+    <ClCompile Include="src\app(l4)\handlers\see_token_rights_of_process.cpp" />
+    <ClCompile Include="src\app(l4)\scenario\process_inspector_n_memory_scanner.cpp" />
+    <ClCompile Include="src\app(l4)\ui\printer.cpp" />
+    <ClCompile Include="src\core(l1)\memory\read_process_memory.cpp" />
+    <ClCompile Include="src\core(l1)\process\convert.cpp" />
+    <ClCompile Include="src\core(l1)\security\flags_for_scanning.cpp" />
+    <ClCompile Include="src\core(l1)\security\get_token_rights.cpp" />
+    <ClCompile Include="src\core(l1)\security\open_process_with_rights.cpp" />
+    <ClCompile Include="src\core(l1)\utils\unique_handle.cpp" />
+    <ClCompile Include="src\operation(l2)\memory\query_memory_reg.cpp" />
+    <ClCompile Include="src\operation(l2)\memory\search_byte_pattern.cpp" />
+    <ClCompile Include="src\operation(l2)\process\filter_processes.cpp" />
+    <ClCompile Include="src\operation(l2)\process\injection.cpp" />
+    <ClCompile Include="src\operation(l2)\process\list_processes.cpp" />
+    <ClCompile Include="src\operation(l2)\security\get_token_rights_of_process.cpp" />
+    <ClCompile Include="src\windows_memory_scanner.cpp" />
+    <ClCompile Include="src\workflow(l3)\memory\scan_process_memory.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\app(l4)\handlers\entry_screen.h" />
+    <ClInclude Include="src\app(l4)\handlers\filter_process_by_name.h" />
+    <ClInclude Include="src\app(l4)\handlers\injection_in_process.h" />
+    <ClInclude Include="src\app(l4)\handlers\load_processes.h" />
+    <ClInclude Include="src\app(l4)\handlers\memory_scanner.h" />
+    <ClInclude Include="src\app(l4)\handlers\see_token_rights_of_process.h" />
+    <ClInclude Include="src\app(l4)\scenario\process_inspector_n_memory_scanner.h" />
+    <ClInclude Include="src\app(l4)\ui\printer.h" />
+    <ClInclude Include="src\core(l1)\memory\read_process_memory.h" />
+    <ClInclude Include="src\core(l1)\process\convert.h" />
+    <ClInclude Include="src\core(l1)\security\flags_for_scanning.h" />
+    <ClInclude Include="src\core(l1)\security\get_token_rights.h" />
+    <ClInclude Include="src\core(l1)\security\open_process_with_rights.h" />
+    <ClInclude Include="src\core(l1)\utils\unique_handle.h" />
+    <ClInclude Include="src\domain\memory\memory_region.h" />
+    <ClInclude Include="src\domain\memory\scan_hit.h" />
+    <ClInclude Include="src\domain\process\process_info.h" />
+    <ClInclude Include="src\domain\security\token_info.h" />
+    <ClInclude Include="src\operation(l2)\memory\query_memory_reg.h" />
+    <ClInclude Include="src\operation(l2)\memory\search_byte_pattern.h" />
+    <ClInclude Include="src\operation(l2)\process\filter_processes.h" />
+    <ClInclude Include="src\operation(l2)\process\injection.h" />
+    <ClInclude Include="src\operation(l2)\process\list_processes.h" />
+    <ClInclude Include="src\operation(l2)\security\get_token_rights_of_process.h" />
+    <ClInclude Include="src\workflow(l3)\memory\scan_process_memory.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

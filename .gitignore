@@ -1,0 +1,56 @@
+# =========================
+# Build directories
+# =========================
+x64/
+Debug/
+Release/
+
+# Auto-generated VS folders 
+windows_*/
+*.dir/
+
+# =========================
+# Visual Studio
+# =========================
+.vs/
+*.VC.db
+*.VC.opendb
+
+# User-specific files
+*.user
+*.filters.user
+
+# =========================
+# Compiled objects / binaries
+# =========================
+*.obj
+*.exe
+*.dll
+*.lib
+*.pdb
+*.ilk
+*.idb
+
+# =========================
+# Build logs / temp
+# =========================
+*.log
+*.tlog
+*.lastbuildstate
+*.recipe
+
+# =========================
+# Intermediate / misc
+# =========================
+*.enc
+
+# =========================
+# STL / toolchain artifacts 
+# =========================
+microsoft/
+
+# =========================
+# Windows system files
+# =========================
+Thumbs.db
+Desktop.ini

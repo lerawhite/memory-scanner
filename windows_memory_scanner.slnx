@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="windows_memory_scanner.vcxproj" Id="ad95f31e-62f4-4a33-87f2-a1231b9498bd" />
+</Solution>

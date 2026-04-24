@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\src">
+      <UniqueIdentifier>{bffa7579-04a8-4925-b574-e6ad0030e565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\src\core">
+      <UniqueIdentifier>{56579854-c0fe-4a27-9f8b-9226a8f4ba05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\src\core\process">
+      <UniqueIdentifier>{976c0adc-6d66-4111-8a22-792143b2a959}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\src\domain">
+      <UniqueIdentifier>{804ea85a-7e17-430b-94d4-d30e6c621fe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\src\core\utils">
+      <UniqueIdentifier>{73fb0cec-013c-4ba8-8f03-a148b6ea8f12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\src\operation">
+      <UniqueIdentifier>{f34df50d-ed96-4f16-a2fd-1b913b09cbc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\src\app">
+      <UniqueIdentifier>{f39fb3d8-0647-48e2-81c5-31d8af71f8fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\src\app\ui">
+      <UniqueIdentifier>{ad3b9ee3-5f4d-4363-b36a-373da8e58e77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\src\app\scenario">
+      <UniqueIdentifier>{d881a4a3-e5f5-40b8-8aea-c716e97dd3a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\src\domain\process">
+      <UniqueIdentifier>{a0bc72ab-1574-4be3-b223-7f103ad06f61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\src\core\security">
+      <UniqueIdentifier>{9a3edca5-a79b-491b-ae73-7f569c83fa5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\src\operation\security">
+      <UniqueIdentifier>{8941782e-d247-434c-8927-bdebaa826bbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\src\domain\security">
+      <UniqueIdentifier>{146c228c-b8c6-4c71-a912-dd329d553353}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\src\app\handlers">
+      <UniqueIdentifier>{8abb7f0c-7612-4eb6-8dbc-6ecfd1e4d84c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\src\operation\process">
+      <UniqueIdentifier>{4dd46564-6f8c-478f-9867-1dd957560fc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\src\operation\memory">
+      <UniqueIdentifier>{4f0da770-40b1-4251-aa50-ac8935412d47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\src\domain\memory">
+      <UniqueIdentifier>{00707b6e-0de0-407c-a6b2-4f498b2c8cc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\src\core\memory">
+      <UniqueIdentifier>{859fdc88-9ce1-4687-9d24-8b021f460e87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\src\workflow">
+      <UniqueIdentifier>{28d43362-d1b7-4f8b-9965-48fd3faf8434}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\src\workflow\memory">
+      <UniqueIdentifier>{d426757f-6a25-40d6-837f-4fe57458befd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\src\app\handlers\process">
+      <UniqueIdentifier>{f1627b8f-fa74-4899-a8ed-298240616954}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\src\app\handlers\memory">
+      <UniqueIdentifier>{557b44fe-9558-4bb2-8b3f-8c09b4e34b05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\src\app\handlers\security">
+      <UniqueIdentifier>{078e8ca3-51aa-402c-ad32-1e41f4cf0375}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\app(l4)\ui\printer.cpp">
+      <Filter>Исходные файлы\src\app\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\windows_memory_scanner.cpp">
+      <Filter>Исходные файлы\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core(l1)\utils\unique_handle.cpp">
+      <Filter>Исходные файлы\src\core\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core(l1)\process\convert.cpp">
+      <Filter>Исходные файлы\src\core\process</Filter>
+    </ClCompile>
+    <ClCompile Include="src\app(l4)\scenario\process_inspector_n_memory_scanner.cpp">
+      <Filter>Исходные файлы\src\app\scenario</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core(l1)\security\open_process_with_rights.cpp">
+      <Filter>Исходные файлы\src\core\security</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core(l1)\security\get_token_rights.cpp">
+      <Filter>Исходные файлы\src\core\security</Filter>
+    </ClCompile>
+    <ClCompile Include="src\operation(l2)\security\get_token_rights_of_process.cpp">
+      <Filter>Исходные файлы\src\operation\security</Filter>
+    </ClCompile>
+    <ClCompile Include="src\app(l4)\handlers\entry_screen.cpp">
+      <Filter>Исходные файлы\src\app\handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\operation(l2)\process\filter_processes.cpp">
+      <Filter>Исходные файлы\src\operation\process</Filter>
+    </ClCompile>
+    <ClCompile Include="src\operation(l2)\process\list_processes.cpp">
+      <Filter>Исходные файлы\src\operation\process</Filter>
+    </ClCompile>
+    <ClCompile Include="src\operation(l2)\memory\search_byte_pattern.cpp">
+      <Filter>Исходные файлы\src\operation\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="src\operation(l2)\memory\query_memory_reg.cpp">
+      <Filter>Исходные файлы\src\operation\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core(l1)\memory\read_process_memory.cpp">
+      <Filter>Исходные файлы\src\core\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="src\app(l4)\handlers\filter_process_by_name.cpp">
+      <Filter>Исходные файлы\src\app\handlers\process</Filter>
+    </ClCompile>
+    <ClCompile Include="src\app(l4)\handlers\load_processes.cpp">
+      <Filter>Исходные файлы\src\app\handlers\process</Filter>
+    </ClCompile>
+    <ClCompile Include="src\app(l4)\handlers\memory_scanner.cpp">
+      <Filter>Исходные файлы\src\app\handlers\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="src\app(l4)\handlers\see_token_rights_of_process.cpp">
+      <Filter>Исходные файлы\src\app\handlers\security</Filter>
+    </ClCompile>
+    <ClCompile Include="src\workflow(l3)\memory\scan_process_memory.cpp">
+      <Filter>Исходные файлы\src\workflow\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="src\operation(l2)\process\injection.cpp">
+      <Filter>Исходные файлы\src\operation\process</Filter>
+    </ClCompile>
+    <ClCompile Include="src\app(l4)\handlers\injection_in_process.cpp">
+      <Filter>Исходные файлы\src\app\handlers\process</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core(l1)\security\flags_for_scanning.cpp">
+      <Filter>Исходные файлы\src\core\security</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\app(l4)\ui\printer.h">
+      <Filter>Исходные файлы\src\app\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core(l1)\utils\unique_handle.h">
+      <Filter>Исходные файлы\src\core\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core(l1)\process\convert.h">
+      <Filter>Исходные файлы\src\core\process</Filter>
+    </ClInclude>
+    <ClInclude Include="src\app(l4)\scenario\process_inspector_n_memory_scanner.h">
+      <Filter>Исходные файлы\src\app\scenario</Filter>
+    </ClInclude>
+    <ClInclude Include="src\domain\process\process_info.h">
+      <Filter>Исходные файлы\src\domain\process</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core(l1)\security\open_process_with_rights.h">
+      <Filter>Исходные файлы\src\core\security</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core(l1)\security\get_token_rights.h">
+      <Filter>Исходные файлы\src\core\security</Filter>
+    </ClInclude>
+    <ClInclude Include="src\operation(l2)\security\get_token_rights_of_process.h">
+      <Filter>Исходные файлы\src\operation\security</Filter>
+    </ClInclude>
+    <ClInclude Include="src\domain\security\token_info.h">
+      <Filter>Исходные файлы\src\domain\security</Filter>
+    </ClInclude>
+    <ClInclude Include="src\app(l4)\handlers\entry_screen.h">
+      <Filter>Исходные файлы\src\app\handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\operation(l2)\process\filter_processes.h">
+      <Filter>Исходные файлы\src\operation\process</Filter>
+    </ClInclude>
+    <ClInclude Include="src\operation(l2)\process\list_processes.h">
+      <Filter>Исходные файлы\src\operation\process</Filter>
+    </ClInclude>
+    <ClInclude Include="src\operation(l2)\memory\search_byte_pattern.h">
+      <Filter>Исходные файлы\src\operation\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\operation(l2)\memory\query_memory_reg.h">
+      <Filter>Исходные файлы\src\operation\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\domain\memory\memory_region.h">
+      <Filter>Исходные файлы\src\domain\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core(l1)\memory\read_process_memory.h">
+      <Filter>Исходные файлы\src\core\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\domain\memory\scan_hit.h">
+      <Filter>Исходные файлы\src\domain\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\app(l4)\handlers\filter_process_by_name.h">
+      <Filter>Исходные файлы\src\app\handlers\process</Filter>
+    </ClInclude>
+    <ClInclude Include="src\app(l4)\handlers\load_processes.h">
+      <Filter>Исходные файлы\src\app\handlers\process</Filter>
+    </ClInclude>
+    <ClInclude Include="src\app(l4)\handlers\memory_scanner.h">
+      <Filter>Исходные файлы\src\app\handlers\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\app(l4)\handlers\see_token_rights_of_process.h">
+      <Filter>Исходные файлы\src\app\handlers\security</Filter>
+    </ClInclude>
+    <ClInclude Include="src\workflow(l3)\memory\scan_process_memory.h">
+      <Filter>Исходные файлы\src\workflow\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\operation(l2)\process\injection.h">
+      <Filter>Исходные файлы\src\operation\process</Filter>
+    </ClInclude>
+    <ClInclude Include="src\app(l4)\handlers\injection_in_process.h">
+      <Filter>Исходные файлы\src\app\handlers\process</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core(l1)\security\flags_for_scanning.h">
+      <Filter>Исходные файлы\src\core\security</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
